@@ -1,0 +1,15 @@
+.container {
+  position: relative;
+  margin-top: 40px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

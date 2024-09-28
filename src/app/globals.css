@@ -17,3 +17,20 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+h1 {
+  font-weight: 500;
+  font-size: 53px;
+  position: relative;
+  width: 478px;
+  height: 64px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 28px;
+  text-align: center;
+  position: relative;
+  width: max-content;
+  height: 36px;
+}

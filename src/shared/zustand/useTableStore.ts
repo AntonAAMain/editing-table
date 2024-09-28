@@ -62,6 +62,8 @@ export const useTableStore = create<StoreState>()(
 
       if (get().headers.length === 5) {
         alert("Достигнуто максимальное количество столбцов");
+      } else if (name.length === 0) {
+        alert("Название столбца не может быть пустым");
       } else {
         if (!isExisted) {
           set((state) => {

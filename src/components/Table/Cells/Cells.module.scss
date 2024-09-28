@@ -1,0 +1,31 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.line {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  height: 40px;
+
+  border-bottom: 2px solid #e1e3e9;
+}
+
+.input {
+  width: 200px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 500;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid black;
+  background: transparent;
+}
+
+.deleteBtn {
+  align-self: center;
+}

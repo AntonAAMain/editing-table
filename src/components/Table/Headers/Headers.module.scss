@@ -1,0 +1,47 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.item {
+  position: relative;
+  color: rgba(142, 142, 147, 1);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.addingHeader {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  input {
+    width: 86px;
+    align-self: flex-start;
+  }
+}
+
+.buttons {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
